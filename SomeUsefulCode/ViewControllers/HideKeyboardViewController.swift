@@ -16,7 +16,7 @@ class HideKeyboardViewController: UIViewController {
     textField.layer.borderColor = UIColor.systemBlue.cgColor
     textField.layer.borderWidth = 1
     textField.layer.cornerRadius = 25
-    // tạo lề cho phần nhập input
+    textField.textAlignment = .center
     return textField
   }()
   

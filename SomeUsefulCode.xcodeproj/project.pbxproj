@@ -15,6 +15,7 @@
 		6D099B4623F3A6AC00F662EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D099B4423F3A6AC00F662EC /* LaunchScreen.storyboard */; };
 		6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4D23F3A96D00F662EC /* Tool.swift */; };
 		6D099B5023F3AE4300F662EC /* HideKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */; };
+		6D099B5323F3D54500F662EC /* HexColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B5223F3D54500F662EC /* HexColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		6D099B4723F3A6AC00F662EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D099B4D23F3A96D00F662EC /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardViewController.swift; sourceTree = "<group>"; };
+		6D099B5123F3B6A800F662EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6D099B5223F3D54500F662EC /* HexColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 		6D099B2D23F3A6A900F662EC = {
 			isa = PBXGroup;
 			children = (
+				6D099B5123F3B6A800F662EC /* README.md */,
 				6D099B3823F3A6A900F662EC /* SomeUsefulCode */,
 				6D099B3723F3A6A900F662EC /* Products */,
 			);
@@ -60,6 +64,7 @@
 		6D099B3823F3A6A900F662EC /* SomeUsefulCode */ = {
 			isa = PBXGroup;
 			children = (
+				6DADFA1D23F3DCE80010D080 /* ViewControllers */,
 				6D099B3923F3A6A900F662EC /* AppDelegate.swift */,
 				6D099B3B23F3A6A900F662EC /* SceneDelegate.swift */,
 				6D099B3D23F3A6A900F662EC /* ViewController.swift */,
@@ -68,9 +73,17 @@
 				6D099B4423F3A6AC00F662EC /* LaunchScreen.storyboard */,
 				6D099B4723F3A6AC00F662EC /* Info.plist */,
 				6D099B4D23F3A96D00F662EC /* Tool.swift */,
-				6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */,
 			);
 			path = SomeUsefulCode;
+			sourceTree = "<group>";
+		};
+		6DADFA1D23F3DCE80010D080 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */,
+				6D099B5223F3D54500F662EC /* HexColorViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D099B5323F3D54500F662EC /* HexColorViewController.swift in Sources */,
 				6D099B3E23F3A6A900F662EC /* ViewController.swift in Sources */,
 				6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */,
 				6D099B3A23F3A6A900F662EC /* AppDelegate.swift in Sources */,

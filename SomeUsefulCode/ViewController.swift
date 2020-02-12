@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     setupData()
     setupTableView()
+    setupNavigation()
   }
 
   func setupTableView() {
@@ -37,8 +38,13 @@ class ViewController: UIViewController {
   
   func setupData() {
     tools = [
-      Tool(subject: "Hide keyboard when touch around", scene: HideKeyboardViewController())
+      Tool(subject: "Hide keyboard when touch around", scene: HideKeyboardViewController()),
+      Tool(subject: "Change hex string to RGB Colour", scene: HexColorViewController())
     ]
+  }
+  
+  func setupNavigation() {
+    navigationController?.navigationBar.topItem?.title = "Some useful code"
   }
   
 }
