@@ -39,7 +39,8 @@ class ViewController: UIViewController {
   func setupData() {
     tools = [
       Tool(subject: "Hide keyboard when touch around", scene: HideKeyboardViewController()),
-      Tool(subject: "Change hex string to RGB Colour", scene: HexColorViewController())
+      Tool(subject: "Change hex string to RGB Colour", scene: HexColorViewController()),
+      Tool(subject: "Writing Cleaner View Code in Swift By Overriding loadView()", scene: SeperatedViewController())
     ]
   }
   

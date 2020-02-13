@@ -8,3 +8,5 @@ toán nên có thể sẽ không có file GIF demo.
 
 ### 2. Chuyển chuỗi màu Hex sang màu RGB
 <img src="HexColor.gif" alt="drawing" width="207"/>
+
+### 3. Tách thành phần View ra khỏi ViewController với phương thức override loadView()

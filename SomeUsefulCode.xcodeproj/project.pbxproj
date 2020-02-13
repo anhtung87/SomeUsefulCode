@@ -16,6 +16,7 @@
 		6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4D23F3A96D00F662EC /* Tool.swift */; };
 		6D099B5023F3AE4300F662EC /* HideKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */; };
 		6D099B5323F3D54500F662EC /* HexColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B5223F3D54500F662EC /* HexColorViewController.swift */; };
+		6DADFA6823F508290010D080 /* SeperatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADFA6723F508290010D080 /* SeperatedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardViewController.swift; sourceTree = "<group>"; };
 		6D099B5123F3B6A800F662EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6D099B5223F3D54500F662EC /* HexColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorViewController.swift; sourceTree = "<group>"; };
+		6DADFA6723F508290010D080 /* SeperatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */,
 				6D099B5223F3D54500F662EC /* HexColorViewController.swift */,
+				6DADFA6723F508290010D080 /* SeperatedViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */,
 				6D099B3A23F3A6A900F662EC /* AppDelegate.swift in Sources */,
 				6D099B5023F3AE4300F662EC /* HideKeyboardViewController.swift in Sources */,
+				6DADFA6823F508290010D080 /* SeperatedViewController.swift in Sources */,
 				6D099B3C23F3A6A900F662EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
