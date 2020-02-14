@@ -19,6 +19,8 @@ import UIKit
 
 class DisplayedContentViewController: UIViewController {
   
+  var screenLocationCheckpoint: CGPoint?
+  
   let backgroundView: UIView = {
     let view = UIView()
     view.translatesAutoresizingMaskIntoConstraints = false
@@ -98,15 +100,26 @@ class DisplayedContentViewController: UIViewController {
     }
   }
   
+  func keyboardDidEnd() {
+    UIView.animate(withDuration: 0.28, animations: {
+      self.screenScrollView.contentOffset = self.screenLocationCheckpoint!
+    })
+  }
+  
   func reloadLayout(_ height: CGFloat) {
-    print(screenScrollView.contentOffset)
     let bottomPadding = UIScreen.main.bounds.maxY - exampleTextField.frame.maxY - exampleTextField.bounds.maxY
     screenScrollView.contentOffset = CGPoint(x: 0, y: CGFloat(height - bottomPadding))
   }
 }
 
 extension DisplayedContentViewController: UITextFieldDelegate {
+  
   func textFieldDidBeginEditing(_ textField: UITextField) {
+    screenLocationCheckpoint = screenScrollView.contentOffset
     NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+  }
+  
+  func textFieldDidEndEditing(_ textField: UITextField) {
+    keyboardDidEnd()
   }
 }
