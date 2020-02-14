@@ -10,3 +10,6 @@ toán nên có thể sẽ không có file GIF demo.
 <img src="HexColor.gif" alt="drawing" width="207"/>
 
 ### 3. Tách thành phần View ra khỏi ViewController với phương thức override loadView()
+
+### 4. Điều chỉnh lại vị trí của textField khi hiện keyboard
+<img src="AutoLayout.gif" alt="drawing" width="207"/>

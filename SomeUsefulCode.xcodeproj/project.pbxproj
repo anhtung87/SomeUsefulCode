@@ -16,6 +16,7 @@
 		6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4D23F3A96D00F662EC /* Tool.swift */; };
 		6D099B5023F3AE4300F662EC /* HideKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */; };
 		6D099B5323F3D54500F662EC /* HexColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D099B5223F3D54500F662EC /* HexColorViewController.swift */; };
+		6D8EA33023F6492F0064FB99 /* DisplayedContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8EA32F23F6492F0064FB99 /* DisplayedContentViewController.swift */; };
 		6DADFA6823F508290010D080 /* SeperatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADFA6723F508290010D080 /* SeperatedViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardViewController.swift; sourceTree = "<group>"; };
 		6D099B5123F3B6A800F662EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6D099B5223F3D54500F662EC /* HexColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorViewController.swift; sourceTree = "<group>"; };
+		6D8EA32F23F6492F0064FB99 /* DisplayedContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayedContentViewController.swift; sourceTree = "<group>"; };
 		6DADFA6723F508290010D080 /* SeperatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeperatedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				6D099B4F23F3AE4300F662EC /* HideKeyboardViewController.swift */,
 				6D099B5223F3D54500F662EC /* HexColorViewController.swift */,
 				6DADFA6723F508290010D080 /* SeperatedViewController.swift */,
+				6D8EA32F23F6492F0064FB99 /* DisplayedContentViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8EA33023F6492F0064FB99 /* DisplayedContentViewController.swift in Sources */,
 				6D099B5323F3D54500F662EC /* HexColorViewController.swift in Sources */,
 				6D099B3E23F3A6A900F662EC /* ViewController.swift in Sources */,
 				6D099B4E23F3A96D00F662EC /* Tool.swift in Sources */,

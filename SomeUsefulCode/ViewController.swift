@@ -40,7 +40,8 @@ class ViewController: UIViewController {
     tools = [
       Tool(subject: "Hide keyboard when touch around", scene: HideKeyboardViewController()),
       Tool(subject: "Change hex string to RGB Colour", scene: HexColorViewController()),
-      Tool(subject: "Writing Cleaner View Code in Swift By Overriding loadView()", scene: SeperatedViewController())
+      Tool(subject: "Writing Cleaner View Code in Swift By Overriding loadView()", scene: SeperatedViewController()),
+      Tool(subject: "Display textField when show keyboard", scene: DisplayedContentViewController())
     ]
   }
   
